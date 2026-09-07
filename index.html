@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hunter.exe | $HUNT</title>
+  <meta name="description" content="Hunter.exe ($HUNT) on Robinhood Chain. The file that never got deleted. RUN HUNTER.EXE." />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Oxanium:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <canvas id="hex" aria-hidden="true"></canvas>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <div class="loader" id="loader">
+    <div class="boot">
+      <p class="boot-title">HUNTER.EXE</p>
+      <pre id="bootLog"></pre>
+      <div class="boot-bar"><i></i></div>
+    </div>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="nav-brand" href="#hero">
+      <img src="img/logo.png" alt="Hunter.exe" />
+      <span>
+        <strong>HUNTER.EXE</strong>
+        <small>STATUS: RUNNING</small>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#howtobuy">How to Buy</a>
+      <a href="#chart">Chart</a>
+      <a href="#joinus">Join Us</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://x.com/" target="_blank" rel="noopener noreferrer">
+        <img src="img/icons/x.svg" alt="" />
+        <span>Follow</span>
+      </a>
+      <a class="btn btn-lime" href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer">
+        <img src="img/icons/uniswap.svg" alt="" />
+        <span>Run $HUNT</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="wrap hero-wrap">
+        <div class="hero-copy reveal">
+          <p class="kicker"><span class="pulse"></span> SYSTEM BOOT · ROBINHOOD</p>
+          <h1>
+            <span class="glitch" data-text="HUNTER.EXE">HUNTER.EXE</span>
+          </h1>
+          <p class="lede">The file that never got deleted. An internet-born meme from one of the most infamous laptops in modern political culture. The scandal became history. The history became a meme. Now the meme is on-chain.</p>
+          <div class="ca-row">
+            <code>$HUNT</code>
+            <span>CA: COMING SOON</span>
+          </div>
+          <div class="hero-cta">
+            <a class="btn btn-lime btn-lg" href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer">
+              <img src="img/icons/uniswap.svg" alt="" />
+              Execute Uniswap
+            </a>
+            <a class="btn btn-line btn-lg" href="#chart">
+              <img src="img/icons/dexscreener.svg" alt="" />
+              Open Process
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal delay">
+          <div class="frame">
+            <div class="frame-bar">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot lime"></span>
+              <em>hunter.exe</em>
+            </div>
+            <img class="hero-logo" src="img/logo.png" alt="Hunter.exe laptop" />
+          </div>
+          <aside class="term" id="sysTerm">
+            <p>[ SYSTEM BOOT ]</p>
+            <p>FILE: HUNTER.EXE</p>
+            <p>STATUS: <b>RUNNING</b></p>
+            <p>MEMORY: UNLIMITED</p>
+            <p>CHAIN: ROBINHOOD</p>
+            <p class="blink">RUN HUNTER.EXE_</p>
+          </aside>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>THE FILE THAT NEVER GOT DELETED</span>
+          <span>$HUNT</span>
+          <span>STATUS: RUNNING</span>
+          <span>MEMORY: UNLIMITED</span>
+          <span>CHAIN: ROBINHOOD</span>
+          <span>RUN HUNTER.EXE</span>
+          <span>THE FILE THAT NEVER GOT DELETED</span>
+          <span>$HUNT</span>
+          <span>STATUS: RUNNING</span>
+          <span>MEMORY: UNLIMITED</span>
+          <span>CHAIN: ROBINHOOD</span>
+          <span>RUN HUNTER.EXE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">FILE RECOVERY</p>
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <article class="dossier reveal">
+            <header>
+              <span>CASE / 0001</span>
+              <span>ACCESS: PUBLIC</span>
+            </header>
+            <p class="lead">Hunter.exe is an internet-born meme built around one of the most infamous laptops in modern political culture.</p>
+            <p>They tried to trash the drive. The drive kept a copy. Forums archived the rumor, the rumor became folklore, and folklore became a running joke that refused every recycle bin on the internet.</p>
+            <p>The scandal became history. The history became a meme. Now the meme is on-chain, compiled for Robinhood Chain, ticker $HUNT, process name Hunter.exe.</p>
+            <p class="cmd">C:\&gt; RUN HUNTER.EXE</p>
+          </article>
+          <aside class="meta-card reveal delay">
+            <img src="img/logo.png" alt="" />
+            <dl>
+              <div><dt>NAME</dt><dd>Hunter.exe</dd></div>
+              <div><dt>TICKER</dt><dd>$HUNT</dd></div>
+              <div><dt>FILE</dt><dd>HUNTER.EXE</dd></div>
+              <div><dt>STATUS</dt><dd>RUNNING</dd></div>
+              <div><dt>MEMORY</dt><dd>UNLIMITED</dd></div>
+              <div><dt>CHAIN</dt><dd>ROBINHOOD</dd></div>
+            </dl>
+          </aside>
+        </div>
+        <ol class="logs">
+          <li class="reveal"><span>01</span><h3>SCANDAL</h3><p>A laptop left the room. The internet did not.</p></li>
+          <li class="reveal"><span>02</span><h3>HISTORY</h3><p>Headlines cooled. The file stayed warm.</p></li>
+          <li class="reveal"><span>03</span><h3>MEME</h3><p>Culture compiled the joke into a process that will not quit.</p></li>
+          <li class="reveal"><span>04</span><h3>ON-CHAIN</h3><p>Hunter.exe boots on Robinhood Chain. $HUNT is the handle.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="buy" id="howtobuy">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">INSTALL SEQUENCE</p>
+          <h2>How to Buy</h2>
+        </div>
+        <div class="cmds">
+          <article class="cmd-card reveal">
+            <span>01</span>
+            <h3>wallet.connect()</h3>
+            <p>Open an EVM wallet. Switch the network to Robinhood Chain. Chain ID 4663. Gas is ETH.</p>
+          </article>
+          <article class="cmd-card reveal">
+            <span>02</span>
+            <h3>robinhood.fund()</h3>
+            <p>Bridge or deposit ETH on Robinhood Chain so the process can execute.</p>
+          </article>
+          <article class="cmd-card reveal">
+            <span>03</span>
+            <h3>uniswap.run($HUNT)</h3>
+            <p>Open Uniswap on Robinhood Chain and swap into $HUNT. Paste the contract, never the rumor.</p>
+            <a href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer">
+              <img src="img/icons/uniswap.svg" alt="" /> Uniswap
+            </a>
+          </article>
+          <article class="cmd-card reveal">
+            <span>04</span>
+            <h3>dexscreener.watch()</h3>
+            <p>Attach the chart. If the file is live, the tape will prove it.</p>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer">
+              <img src="img/icons/dexscreener.svg" alt="" /> DEX Screener
+            </a>
+          </article>
+        </div>
+        <div class="buy-links reveal">
+          <a href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/uniswap.svg" alt="Uniswap" /><span>Uniswap</span>
+          </a>
+          <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/dexscreener.svg" alt="DEX Screener" /><span>DEX Screener</span>
+          </a>
+          <a href="https://robinhoodchain.blockscout.com" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/blockscout.svg" alt="Blockscout" /><span>Blockscout</span>
+          </a>
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/x.svg" alt="X" /><span>X</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="chart" id="chart">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">PROCESS MONITOR</p>
+          <h2>Chart</h2>
+        </div>
+        <div class="frame reveal">
+          <div class="frame-bar">
+            <span class="dot red"></span>
+            <span class="dot amber"></span>
+            <span class="dot lime"></span>
+            <em>dexscreener.exe // robinhood</em>
+            <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer">
+              <img src="img/icons/dexscreener.svg" alt="" /> OPEN
+            </a>
+          </div>
+          <iframe
+            title="DEX Screener Robinhood Chain chart"
+            src="https://dexscreener.com/robinhood?embed=1&theme=dark&trades=0&info=0&chartLeftToolbar=0&chartDefaultOnMobile=1"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="join" id="joinus">
+      <div class="join-banner" aria-hidden="true">
+        <img src="img/banner.png" alt="" />
+      </div>
+      <div class="join-shade"></div>
+      <div class="wrap join-wrap reveal">
+        <p class="kicker">NETWORK SHARE</p>
+        <h2>Join Us</h2>
+        <p>The recycle bin failed. The chain did not. Follow the process and keep the file alive.</p>
+        <div class="join-cta">
+          <a class="btn btn-lime btn-lg" href="https://x.com/" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/x.svg" alt="" /> Follow on X
+          </a>
+          <a class="btn btn-line btn-lg" href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer">
+            <img src="img/icons/uniswap.svg" alt="" /> Buy $HUNT
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-wrap">
+      <a class="nav-brand" href="#hero">
+        <img src="img/logo.png" alt="" />
+        <span>
+          <strong>HUNTER.EXE</strong>
+          <small>$HUNT · ROBINHOOD · RUNNING</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="https://x.com/" target="_blank" rel="noopener noreferrer"><img src="img/icons/x.svg" alt="X" /></a>
+        <a href="https://app.uniswap.org/swap" target="_blank" rel="noopener noreferrer"><img src="img/icons/uniswap.svg" alt="Uniswap" /></a>
+        <a href="https://dexscreener.com/robinhood" target="_blank" rel="noopener noreferrer"><img src="img/icons/dexscreener.svg" alt="DEX Screener" /></a>
+      </div>
+    </div>
+    <p class="fineprint">Hunter.exe is a community meme token on Robinhood Chain. Not affiliated with any political campaign, laptop manufacturer, public figure, or Robinhood Markets. Nothing here is financial advice.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
