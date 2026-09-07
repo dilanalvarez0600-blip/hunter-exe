@@ -383,7 +383,8 @@ h1 {
 .hero-logo {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
+  background: #05080c;
   animation: float 5.5s ease-in-out infinite;
 }
 
@@ -471,9 +472,23 @@ h2 {
 .meta-card img {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
+  background: #05080c;
   margin-bottom: 14px;
-  animation: ken 16s ease-in-out infinite alternate;
+}
+
+.shot {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+  background: #05080c;
+}
+
+.shot img {
+  width: 100%;
+  height: min(58vh, 520px);
+  object-fit: cover;
+  animation: ken 18s ease-in-out infinite alternate;
 }
 
 .meta-card dl { display: grid; gap: 10px; }
@@ -498,6 +513,8 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   gap: 14px;
 }
+
+.buy .shot { margin-top: 28px; }
 
 .cmd-card { padding: 20px; position: relative; overflow: hidden; }
 .cmd-card::before {
