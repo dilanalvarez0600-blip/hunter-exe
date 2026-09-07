@@ -339,13 +339,21 @@ h1 {
 }
 
 .ca-row code { color: var(--lime); font-size: 13px; }
+.ca-row .addr { color: var(--ice); }
 
-.ca-row span {
+.ca-row button {
+  border: 0;
   background: var(--lime);
   color: #061006;
   padding: 8px 10px;
   font-size: 11px;
   letter-spacing: 0.1em;
+}
+
+.addr-full {
+  font-size: 12px !important;
+  word-break: break-all;
+  color: var(--ice) !important;
 }
 
 .hero-cta { display: flex; flex-wrap: wrap; gap: 10px; }

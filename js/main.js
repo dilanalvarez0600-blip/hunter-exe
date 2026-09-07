@@ -38,6 +38,22 @@
   window.addEventListener("scroll", onScroll, { passive: true });
 
   toggle.addEventListener("click", () => links.classList.toggle("open"));
+
+  const copyBtn = document.getElementById("copyCa");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", async () => {
+      const value = copyBtn.dataset.ca;
+      try {
+        await navigator.clipboard.writeText(value);
+        copyBtn.textContent = "COPIED";
+      } catch {
+        copyBtn.textContent = "FAILED";
+      }
+      setTimeout(() => {
+        copyBtn.textContent = "COPY CA";
+      }, 1400);
+    });
+  }
   links.querySelectorAll("a").forEach((a) => {
     a.addEventListener("click", () => links.classList.remove("open"));
   });
