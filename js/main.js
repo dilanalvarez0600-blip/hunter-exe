@@ -70,7 +70,7 @@
   };
   tickCursor();
 
-  const glyphs = "0123456789ABCDEFHUNT$";
+  const glyphs = "0123456789ABCDEFHUNTER$";
   const cols = [];
   const resize = () => {
     canvas.width = innerWidth;
